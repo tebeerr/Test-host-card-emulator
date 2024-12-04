@@ -4,5 +4,7 @@
     android:requireDeviceUnlock="false">
     <aid-group android:category="payment" android:description="@string/aid_group_description">
         <aid-filter android:name="F00102030405" />
+        <aid-filter android:name="A0000001234567" />
+        <aid-filter android:name="B0000000987654" />
     </aid-group>
 </host-apdu-service>

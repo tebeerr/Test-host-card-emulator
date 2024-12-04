@@ -1,5 +1,8 @@
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+
 class HceScreen extends StatelessWidget {
-  static const platform = MethodChannel('com.example.hce_flutter_app/hce');
+  static final platform = MethodChannel('com.example.hce_flutter_app/hce');
 
   Future<void> startHceService() async {
     try {
