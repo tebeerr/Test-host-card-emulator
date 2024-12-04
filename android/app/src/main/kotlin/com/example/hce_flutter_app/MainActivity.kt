@@ -3,6 +3,8 @@ package com.example.hce_flutter_app
 import android.content.Intent
 import io.flutter.embedding.android.FlutterActivity
 import io.flutter.plugin.common.MethodChannel
+import android.nfc.cardemulation.HostApduService
+import android.os.Bundle
 
 class MainActivity : FlutterActivity() {
     private val CHANNEL = "com.example.hce_flutter_app/hce"
